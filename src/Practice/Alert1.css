@@ -1,0 +1,16 @@
+.top{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 100px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.top1{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 10% 80% 10% ;
+}
+.top2{
+        background-color: bisque;
+}

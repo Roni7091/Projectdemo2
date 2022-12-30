@@ -1,0 +1,14 @@
+.top{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(14, 83, 14);
+    align-content: center;
+    display: grid;
+    grid-template-columns: 10px 350px 10px;
+    margin-left: -450px;
+    font-size: large;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}

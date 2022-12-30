@@ -1,0 +1,10 @@
+.top{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(14, 83, 14);
+    align-content: center;
+    display: grid;
+    grid-template-columns: 10px 350px 10px;
+    margin-left: -450px;
+    
+}

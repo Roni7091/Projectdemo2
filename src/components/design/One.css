@@ -1,0 +1,31 @@
+.top{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+h5{
+    background-color: rgb(230, 227, 25);
+    width:1000px ;
+    margin-top: 20px;
+   
+}
+.opp{
+    background-color: rgb(224, 232, 239);
+}
+.first{
+    height: 350px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin-top: -23px;
+}
+
+th,td{
+    border: 1px solid rgb(191, 165, 244);
+    font-size: small;
+    height: 20px;
+    width: 35px;
+}
+
+thead{
+    background-color: rgb(224, 187, 187);
+}

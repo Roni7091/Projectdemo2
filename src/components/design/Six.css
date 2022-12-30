@@ -1,0 +1,136 @@
+.nav{
+    height: 50px;
+    background-color: red;
+    top: 0;
+}
+.movess{
+    width: 150px;
+}
+h6{
+    font-size: large;
+    margin-top: -28px;
+    margin-right: 1200px ;
+    color: white;
+}
+h4{
+    margin-top: -65px;
+    color: white;
+}
+h3{
+    margin-left: 1000px;
+    margin-top: -40px;
+    color: white;
+}
+.moves{
+    height: 25px;
+    width: 25px;   
+   
+}
+
+.placed{
+    margin-left: 1320px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+.abb{
+    height: 25px;
+ 
+    width: 25px;
+  margin-right: 1450px;
+    margin-top: 10px;
+}
+.hii{
+    border: 1px solid rgb(222, 222, 247);
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+   
+}
+.hlo{
+    width: 200px;
+    margin-left: 8px;
+    
+}
+.second{
+    margin-right: 1150px;
+    margin-top: 30px; 
+}
+.third{
+    display: flex;
+   
+    margin-top: 25px;
+    gap: 50px;
+    margin-left: 25px;
+}
+.space{
+    width: 400px;
+}
+.spaces{
+    margin-right: 180px;
+}
+.four{
+    display: flex;
+    margin-left: 25px;
+    gap: 50px;
+    margin-top: 15px;
+}
+.sixx{
+    display: flex;
+    gap: 70px;
+    margin-top: 25px;
+    margin-left: 25px ;
+}
+.ppp1{
+   margin-right: 260px;
+}
+.ppp3{
+    margin-right: 260px;
+}
+.ok1{
+    margin-right: 160px;
+}
+.ok5{
+    width: 300px;
+}
+.five{
+    margin-top: 20px;
+    margin-right: 1200px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+th,td{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+
+}
+thead{
+    background-color: rgb(127, 94, 235);
+}
+tbody{
+    background-color: rgb(164, 213, 220);
+}
+.tik{
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+.tok{
+    background-color: rgb(58, 167, 210);
+    width: 110px;
+    color: white;
+    
+}
+.tok1{
+    background-color: rgb(249, 201, 11);
+   color: white;
+   width: 200px;
+}
+.tok2{
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+}
