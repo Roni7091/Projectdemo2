@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { AiFillMacCommand } from 'react-icons/ai';
-import './design/task3.css';
+import files from './design/task3.module.css';
 import Popalert from './Popalert';
 const Task3 = () => {
     const [toogle, setToogle]=useState(false);
@@ -9,37 +9,37 @@ const Task3 = () => {
     };
   return (
     <div>
-        <section className='first-shubh'>
-                <div> <label className='hii'> <AiFillMacCommand size={20} />   MU NUMBER</label>
-<input type="text" className='hlo'  placeholder='HD12123145_12' />  </div>
+        <section className={files.firstshubh}>
+                <div> <label className={files.hii}> <AiFillMacCommand size={20} />   MU NUMBER</label>
+<input type="text" className={files.hlo}  placeholder='HD12123145_12' />  </div>
         </section>
 
 
-        <section className='second-shubh'>
+        <section className={files.secondshubh}>
             <div>
-                <label htmlFor="" className='spaces'> #Transform Order Number:</label>  <br />
-                <input type="text" name="" id="" className='space' placeholder='123456' />
+                <label htmlFor="" className={files.spaces}> #Transform Order Number:</label>  <br />
+                <input type="text" name="" id="" className={files.space} placeholder='123456' />
             </div>
             <div>
-            <label htmlFor="" className='spaces'> Transform Order Status:</label> <br />
-            <input type="text" name="" id="" className='space' placeholder='CREATED' />
+            <label htmlFor="" className={files.spaces}> Transform Order Status:</label> <br />
+            <input type="text" name="" id="" className={files.space} placeholder='CREATED' />
             </div>
             <div>
-            <label htmlFor="" className='spaces'>*sales order #</label>    <br />
-            <input type="text" name="" id="" className='space'  placeholder='SO' />
+            <label htmlFor="" className={files.spaces}>*sales order #</label>    <br />
+            <input type="text" name="" id="" className={files.space}  placeholder='SO' />
             </div>
         </section>
 
 
-        <section className='third-shubh'>
+        <section className={files.thirdshubh}>
             <div>
-            <label htmlFor="" className='ppp1'> Enter Delivery:</label>  <br />
-            <input type="text" name="" id="" className='space' placeholder='US'  />
+            <label htmlFor="" className={files.ppp1}> Enter Delivery:</label>  <br />
+            <input type="text" name="" id="" className={files.space} placeholder='US'  />
             </div>
             <div>
 
-            <label htmlFor="" className='ppp2'>* Ship To Country</label> <br />
-<select className='movess'  placeholder='Enter Country Name'>
+            <label htmlFor="" className={files.ppp2}>* Ship To Country</label> <br />
+<select className={files.movess}  placeholder='Enter Country Name'>
 <option value="none">None</option>
 <option value="Afghanistan" >Afghanistan</option>
 <option value="Algeria">Algeria</option>
@@ -64,22 +64,22 @@ const Task3 = () => {
             </div>
 
             <div>
-            <label htmlFor="" className='ppp3'>Transformation Site</label>    <br />
-            <input type="text" name="" id="" className='space' placeholder='Bengalaru,India' />
+            <label htmlFor="" className={files.ppp3}>Transformation Site</label>    <br />
+            <input type="text" name="" id="" className={files.space} placeholder='Bengalaru,India' />
             </div>
         </section>
 
-        <section className='four-shubh'>
+        <section className={files.fourshubh}>
         <div>
-<label htmlFor="" className='ok1'> *Enter GSTIN </label> <br />
-<input type="text" className='ok5' />
+<label htmlFor="" className={files.ok1}> *Enter GSTIN </label> <br />
+<input type="text" className={files.ok5} />
 </div>
 <div>
-<label htmlFor="" className='ok1'> *ENTER Batch</label> <br />
-<input type="text" className='ok5' />
+<label htmlFor="" className={files.ok1}> *ENTER Batch</label> <br />
+<input type="text" className={files.ok5} />
 </div>
 <div>
-<label htmlFor="" className='ok3'> *ENTER Material</label>  <br />
+<label htmlFor="" className={files.ok3}> *ENTER Material</label>  <br />
 <select >
     <option value="">LABEL1 MATERIAL........</option>
     <option value=""></option>
@@ -90,34 +90,34 @@ const Task3 = () => {
 </select>
 </div>
 <div>
-<label htmlFor="" className='ok1'> ENTER Variant</label>  <br />
-<input type="text" className='ok5' />
+<label htmlFor="" className={files.ok1}> ENTER Variant</label>  <br />
+<input type="text" className={files.ok5} />
 </div>
         </section>
 
 
-        <section className='five-shubh'>
+        <section className={files.fiveshubh}>
             
-            <button className='tok'>save</button>
+            <button className={files.tok}>save</button>
             
         </section>
-        <section className='six-shubh'>
+        <section className={files.sixshubh}>
             <div >
-            <button className='tok1'>RE-Read Master Data</button>
+            <button className={files.tok1}>RE-Read Master Data</button>
 
 
-            <button onClick={toogleHandler} className='tok2'>Create Wo </button>
-            <div className="poptop">
+            <button onClick={toogleHandler} className={files.tok2}>Create Wo </button>
+            <div className={files.poptop}>
               {toogle ? <Popalert  toogle={toogle} setToogle={setToogle}/>:null}
             </div>
         </div>
         </section>
-       <section className='seven-shubh'>
+       <section className={files.sevenshubh}>
             
             <b style={{color:"black"}}>Total Number Of Items(1):</b>
             
        </section>
-       <section className='eight-shubh'>
+       <section className={files.eightshubh}>
        <table>
 <thead>
     <tr>
@@ -212,4 +212,4 @@ const Task3 = () => {
   )
 }
 
-export default Task3
+export default Task3;
