@@ -1,0 +1,31 @@
+.top{
+    
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=2000);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    }
+.firstsh{
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+  
+
+}
+.firstsh>div>label{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    
+}
+.firstsh>div>input{
+    margin-left: 10px;
+    width: 200px;
+    background-color:rgb(232, 187, 202);
+    border-radius: 10px;
+    
+}
+.firstsh>div>input:hover{
+    background-color: orange;
+}

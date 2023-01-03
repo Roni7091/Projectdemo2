@@ -1,11 +1,11 @@
 import React from 'react';
 import { AiFillMacCommand } from 'react-icons/ai';
-import  Model from './design/task4.module.css';
+import Model3 from './design2/verification2.module.css'; 
 
-const Task4 = () => {
+const Verification2 = () => {
   return (
-    <div className={Model.top}>
-            <section className={Model.firstsh}>
+    <div className={Model3.top}>
+            <section className={Model3.firstsh}>
             <div> <label > <AiFillMacCommand size={20} /> TRANSFORM ORDER NUMBER</label>
             <input type="text"   placeholder='TO136O' />  </div>
 
@@ -15,7 +15,7 @@ const Task4 = () => {
 
 
 
-            <section className={Model.secondsh}>
+            <section className={Model3.secondsh}>
                     <div>
                     <label htmlFor="" > TransFormation Site:</label>  <br />
                     <input type="text" name="" id=""    />
@@ -39,7 +39,7 @@ const Task4 = () => {
                     </div>
                     <div>
                     <label htmlFor="" > Verify Line Clearance</label>  <br />
-                    <input type="checkbox" name="" id="" className={Model.check}   />
+                    <input type="checkbox" name="" id="" className={Model3.check}   />
                     </div>
                     <div>
                     <label htmlFor="" > Material Number:</label>  <br />
@@ -58,17 +58,17 @@ const Task4 = () => {
             </section>
 
 
-            <section className={Model.thirdsh}>
+            <section className={Model3.thirdsh}>
                         <div ><h2>Work Order Details:</h2></div>
-                        <div className={Model.mid}>
-                            <button className={Model.but1}>Clear</button>
-                            <button className={Model.but2} >Save</button>
+                        <div className={Model3.mid}>
+                            <button className={Model3.but1}>Clear</button>
+                            <button className={Model3.but2} >Save</button>
                         </div>
 
 
             </section>
-            <section className={Model.foursh}>
-                    <table className={Model.tabshad}>
+            <section className={Model3.foursh}>
+                    <table className={Model3.tabshad}>
                                 <thead>
                                     <tr>
                                         <th>Work Order Number</th>
@@ -92,14 +92,9 @@ const Task4 = () => {
                                         <td>BATCHH</td>
                                         <td>10895878945589</td>
                                         <td>1</td>
-                                        <td>QA IN PROGRESS</td>
+                                        <td>PENDING QA </td>
                                         <td>
-                                            <select className={Model.opt} >
-                                                <option value="none"></option>
-                                                <option value="accept">Accept</option>
-                                                <option value="Reject">Reject</option>
-                                                <option value="Partially Accept">Partially Accept</option>
-                                            </select>
+                                            
                                         </td>
                                         <td></td>
                                         <td></td>
@@ -127,4 +122,4 @@ const Task4 = () => {
   )
 }
 
-export default Task4
+export default Verification2

@@ -1,3 +1,5 @@
+
+
 .top{
     
 background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=2000);
@@ -28,16 +30,21 @@ height: 100vh;
 
 .secondsh{
            display: grid;
-           grid-template-columns: 200px 200px 200px 200px 200px ;
+           grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
             margin: 25px;
             gap: 5px;
 }
 .secondsh>div>input{
     margin-left: 10px;
-   
+     width: 250px;
    
     border-radius: 6px;
     
+}
+.check{
+    height: 20px;
+    width: 20px;
+   
 }
 .secondsh label{
     color: rgb(87, 83, 86);
