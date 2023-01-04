@@ -8,7 +8,7 @@ const Task3 = () => {
         setToogle(!toogle);
     };
   return (
-    <div>
+    <div className={files.topmain}>
         <section className={files.firstshubh}>
                 <div> <label className={files.hii}> <AiFillMacCommand size={20} />   MU NUMBER</label>
 <input type="text" className={files.hlo}  placeholder='HD12123145_12' />  </div>

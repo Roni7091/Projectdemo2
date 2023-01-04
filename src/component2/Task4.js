@@ -1,16 +1,17 @@
 import React from 'react';
 import { AiFillMacCommand } from 'react-icons/ai';
-import  Model from './design/task4.module.css';
+import { BiFilterAlt } from 'react-icons/bi';
+import  Model from './design2/task4.module.css';
 
 const Task4 = () => {
   return (
     <div className={Model.top}>
             <section className={Model.firstsh}>
-            <div> <label > <AiFillMacCommand size={20} /> TRANSFORM ORDER NUMBER</label>
+            <div> <label > <AiFillMacCommand size={20} /> TRANSFORM ORDER NUMBER  </label>
             <input type="text"   placeholder='TO136O' />  </div>
 
-            <div> <label > <AiFillMacCommand size={20} />   HU NUMBER</label>
-                <input type="text"   placeholder='HD12123145_12' />   </div>
+            <div> <label > <AiFillMacCommand size={20} />   HU NUMBER  </label>
+                <input type="text"   placeholder='HD12123145_12' />    </div>
             </section>
 
 
@@ -71,18 +72,18 @@ const Task4 = () => {
                     <table className={Model.tabshad}>
                                 <thead>
                                     <tr>
-                                        <th>Work Order Number</th>
-                                        <th>Material Number</th>
-                                        <th>Batch-Number</th>
-                                        <th>GTIN</th>
-                                        <th>Work Order Quantity</th>
-                                        <th>Work Order Status</th>
-                                        <th>WO Disposition</th>
-                                        <th> Accepted Quantity</th>
-                                        <th>Rejection Quantity</th>
-                                        <th>Reject Reason</th>
-                                        <th>Comments</th>
-                                        <th>Exception HU</th>
+                                    <th>Work Order Number <BiFilterAlt /></th>
+                                        <th>Material Number <BiFilterAlt/></th>
+                                        <th>Batch-Number <BiFilterAlt/>  </th>
+                                        <th>GTIN<BiFilterAlt/> </th>
+                                        <th>Work Order Quantity <BiFilterAlt/></th>
+                                        <th>Work Order Status <BiFilterAlt/></th>
+                                        <th>WO Disposition <BiFilterAlt/></th>
+                                        <th> Accepted Quantity <BiFilterAlt/></th>
+                                        <th>Rejection Quantity <BiFilterAlt/></th>
+                                        <th>Reject Reason <BiFilterAlt/></th>
+                                        <th>Comments <BiFilterAlt/></th>
+                                        <th>Exception HU <BiFilterAlt/></th>
                                     </tr>
                                 </thead>
                                 <tbody>

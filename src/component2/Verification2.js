@@ -1,18 +1,19 @@
 import React from 'react';
+import { BiFilterAlt } from 'react-icons/bi';
 import { AiFillMacCommand } from 'react-icons/ai';
 import Model3 from './design2/verification2.module.css'; 
 
 const Verification2 = () => {
   return (
     <div className={Model3.top}>
-            <section className={Model3.firstsh}>
+            {/* <section className={Model3.firstsh}>
             <div> <label > <AiFillMacCommand size={20} /> TRANSFORM ORDER NUMBER</label>
             <input type="text"   placeholder='TO136O' />  </div>
 
             <div> <label > <AiFillMacCommand size={20} />   HU NUMBER</label>
                 <input type="text"   placeholder='HD12123145_12' />   </div>
             </section>
-
+ */}
 
 
             <section className={Model3.secondsh}>
@@ -71,18 +72,18 @@ const Verification2 = () => {
                     <table className={Model3.tabshad}>
                                 <thead>
                                     <tr>
-                                        <th>Work Order Number</th>
-                                        <th>Material Number</th>
-                                        <th>Batch-Number</th>
-                                        <th>GTIN</th>
-                                        <th>Work Order Quantity</th>
-                                        <th>Work Order Status</th>
-                                        <th>WO Disposition</th>
-                                        <th> Accepted Quantity</th>
-                                        <th>Rejection Quantity</th>
-                                        <th>Reject Reason</th>
-                                        <th>Comments</th>
-                                        <th>Exception HU</th>
+                                        <th>Work Order Number <BiFilterAlt /></th>
+                                        <th>Material Number <BiFilterAlt/></th>
+                                        <th>Batch-Number <BiFilterAlt/>  </th>
+                                        <th>GTIN<BiFilterAlt/> </th>
+                                        <th>Work Order Quantity <BiFilterAlt/></th>
+                                        <th>Work Order Status <BiFilterAlt/></th>
+                                        <th>WO Disposition <BiFilterAlt/></th>
+                                        <th> Accepted Quantity <BiFilterAlt/></th>
+                                        <th>Rejection Quantity <BiFilterAlt/></th>
+                                        <th>Reject Reason <BiFilterAlt/></th>
+                                        <th>Comments <BiFilterAlt/></th>
+                                        <th>Exception HU <BiFilterAlt/></th>
                                     </tr>
                                 </thead>
                                 <tbody>

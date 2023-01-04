@@ -56,4 +56,4 @@ const Ccl = () => {
   )
 }
 
-export default Ccl
+export default Ccl;

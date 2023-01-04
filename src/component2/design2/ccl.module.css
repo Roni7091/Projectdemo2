@@ -15,6 +15,7 @@ body{
 .first input{
     width: 180px;
     background-color: azure;
+    font-size: 15px;
 
 }
 .first select{
