@@ -104,4 +104,26 @@ body{
     height: 150px;
     width: 250px;
 }
+li{
+    font-weight: bold;
+}
+.top45{
+    display: flex;
+}
 
+
+.dropdown-menu {
+    background: white;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    list-style: none;
+    text-align: left;
+
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+}
